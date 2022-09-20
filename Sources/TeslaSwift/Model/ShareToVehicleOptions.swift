@@ -17,7 +17,7 @@ open class ShareToVehicleOptions: Codable {
     public init(address: String) {
         self.value = ShareToVehicleValue.init(address: address)
         self.type = "share_ext_content_raw"
-        self.locale = "en-US"
+        self.locale = "ko-KR"
         self.timestamp_ms = "12345"
     }
 	
